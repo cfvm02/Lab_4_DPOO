@@ -26,13 +26,12 @@ public class FPrincipal extends JFrame implements ActionListener {
     private JCheckBox selectedCheckBox = null;
     public Tablero tablero= new Tablero(4);
     public  String nombreJugador;
-    public boolean desordenar;
+    
     public int dificultad=10;
     public int tamanoActual=4;
     public boolean cambiarTamano=false;
-    public int coordenadaJugadaX;
-    public int coordenadaJugadaY;
-    public boolean fuePresionado;
+    
+    
 	//private int ultima_fila;
 	//private int ultima_columna;
     public static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
